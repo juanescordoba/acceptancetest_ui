@@ -8,6 +8,6 @@ export interface People {
   eye: string;
   birth: string;
   gender: string;
-  homework: string;
+  homeworld: string;
   vehicles: string[];
 }

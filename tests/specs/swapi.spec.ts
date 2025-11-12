@@ -13,7 +13,7 @@ test.describe("UI - Visualización de persona y vehículos", () => {
     eye: "blue",
     birth: "19BBY",
     gender: "male",
-    homework: "https://swapi.dev/api/planets/1/",
+    homeworld: "https://swapi.dev/api/planets/1/",
     vehicles: ["Snowspeeder", "Imperial Speeder Bike"],
   };
 

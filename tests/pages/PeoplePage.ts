@@ -17,7 +17,7 @@ export class PeoplePage extends BasePage {
   peopleEye = () => this.page.locator("[data-testid='people-eye']");
   peopleBirth = () => this.page.locator("[data-testid='people-birth']");
   peopleGender = () => this.page.locator("[data-testid='people-gender']");
-  peopleHomework = () => this.page.locator("[data-testid='people-homework']");
+  peopleHomeworld = () => this.page.locator("[data-testid='people-homeworld']");
   vehicleList = () => this.page.locator("[data-testid='vehicle-list'] li");
 
   // Acciones
@@ -35,7 +35,7 @@ export class PeoplePage extends BasePage {
     await expect(this.peopleEye()).toContainText(people.eye);
     await expect(this.peopleBirth()).toContainText(people.birth);
     await expect(this.peopleGender()).toContainText(people.gender);
-    await expect(this.peopleHomework()).toContainText(people.homework);
+    await expect(this.peopleHomeworld()).toContainText(people.homeworld);
   }
 
   async expectVehiclesVisible(vehicles: string[]) {
